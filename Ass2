@@ -1,0 +1,16 @@
+#sum of factorials
+f=1
+s=0
+n=int(input('enter n:'))
+for i in range(1,n+1):
+    f=f*i
+    s=s+f
+print('sum of factorials=',s)
+
+Output:
+enter n:
+
+16 
+
+sum of factorials= 22324392524313
+
